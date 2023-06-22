@@ -54,7 +54,8 @@ header {
 
 
 }
-div .wrapperp{
+
+div .wrapperp {
     position: static;
     top: auto;
     left: auto;
@@ -62,6 +63,7 @@ div .wrapperp{
     bottom: auto;
     transform: none;
 }
+
 body {
     background-color: rgb(245, 245, 245);
     min-height: 100vh;
@@ -97,13 +99,13 @@ body {
 }
 
 .wrapperp {
-    position: static;
+    position: absolute;
     width: 80%;
     margin: 0 auto;
     background: transparent;
     border: 2px solid rgb(255, 139, 139);
     backdrop-filter: blur(20px);
-    height: 80%;
+    height: 100%;
     border-radius: 20px;
     padding: 3rem 0;
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
@@ -154,13 +156,13 @@ body {
 
 .wrapper.active .form-box.login {
     transition: none;
-    transform: translateX(-900px);
+    transform: translateX(-1000px);
 }
 
 .wrapper .form-box.register {
     position: absolute;
     transition: none;
-    transform: translateX(900px);
+    transform: translateX(1000px);
 
 }
 
@@ -213,6 +215,7 @@ body {
     z-index: 999;
 
 }
+
 .wrapperp .icon-closep {
     position: absolute;
     top: 0;
@@ -251,8 +254,8 @@ body {
 .wrapper .form-box .form-group input:focus~label,
 .wrapper .form-box .form-group input:valid~label {
     top: -10px;
-    font-size: 0.8em;
-    color: #3498db;
+    font-size: 1.2em;
+    color: #ffffff;
 
 }
 
@@ -421,7 +424,7 @@ img:hover {
 }
 
 .center {
-    display:flex;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;

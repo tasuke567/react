@@ -2,7 +2,7 @@ let quotesDiv = document.getElementById('quotes');
     fetch('http://api.kanye.rest')
     .then(response => response.json())
     .then(quote => {
-        quotesDiv.innerHTML += '<p> ${quote.quote}</p>'
+        quotesDiv.innerHTML += `<p> ${quote.quote}</p>`
     })
     .catch(error => console.log(error))
 
@@ -19,7 +19,7 @@ catButton.addEventListener("click", evt => {
     .then(response => response.json())
     .then(cats => {
         cats.forEach(cat => {
-        catDiv.innerHTML = `<h3> Here Cat</h3>
+        catDiv.innerHTML = `
         <img src="${cat.url}" alt="cat" class="center"/>`});
     })
 })
