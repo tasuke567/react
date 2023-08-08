@@ -1,4 +1,4 @@
-#react
+# React
 React is a JavaScript framework for creating user interfaces. React works on the principle of components, which allows you to create complex UIs from simple components. React is also known for its performance and scalability.
 
 ## Features
