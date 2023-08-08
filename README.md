@@ -41,5 +41,3 @@ Contributions are welcome! Please submit a pull request if you have any changes 
 ## License
 
 This repository is under the MIT License.
-
-I hope this is helpful! Let me know if you have any other questions.
